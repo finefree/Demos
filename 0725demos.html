@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>0725demos</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .item{
+            width: 400px
+        }
+        .item h3{
+            height: 185px;
+            padding-left: 1px
+        }
+        .item ul{
+            height: 0;
+            overflow: hidden;
+            transition-property: height;  /*需要过度的属性*/
+            transition-duration: 3s  /*过度时长*/
+        }
+        .item:hover ul{   /*鼠标悬停时间*/
+            height: 700px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="box">
+        <div class="item">
+            <h3 style="background-image: url(img/出口.jpg);background-size: 100%;"></h3>
+            <ul style="background-image: url(img/出口1.jpg); background-size: 100%;"></ul>
+        </div>
+        <div class="item">
+            <h3 style="background-image: url(img/规上工业.jpg);background-size: 100%;" ></h3>
+            <ul style="background-image: url(img/规上工业1.jpg); background-size: 100%;"></ul>
+        </div>
+        <div class="item">
+            <h3 style="background-image: url(img/金融.jpg);background-size: 100%;" ></h3>
+            <ul style="background-image: url(img/金融1.jpg); background-size: 100%;"></ul>
+        </div>
+        <div class="item">
+            <h3 style="background-image: url(img/进出口.jpg);background-size: 100%;"></h3>
+            <ul style="background-image: url(img/进出口1.jpg); background-size: 100%;"></ul>
+        </div>
+        <div class="item">
+            <h3 style="background-image: url(img/进口.jpg);background-size: 100%;" ></h3>
+            <ul style="background-image: url(img/进口1.jpg); background-size: 100%;"></ul>
+        </div>
+        <div class="item">
+            <h3 style="background-image: url(img/深圳GDP.jpg);background-size: 100%;" ></h3>
+            <ul style="background-image: url(img/GDP1.jpg); background-size: 100%;"></ul>
+        </div>
+        <div class="item">
+            <h3 style="background-image: url(img/投资.jpg);background-size: 100%;"></h3>
+            <ul style="background-image: url(img/投资1.jpg); background-size: 100%;"></ul>
+        </div>
+        <div class="item">
+            <h3 style="background-image: url(img/消费.jpg);background-size: 100%;" ></h3>
+            <ul style="background-image: url(img/消费1.jpg); background-size: 100%;"></ul>
+        </div>
+        <div class="item">
+            <h3 style="background-image: url(img/制造业.jpg);background-size: 100%;" ></h3>
+            <ul style="background-image: url(img/制造业1.jpg); background-size: 100%;"></ul>
+        </div>
+    </div>
+</body>
+</html>
